@@ -1,0 +1,224 @@
+<!-- en-tete -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- link style template_stPam -->
+    <link rel="stylesheet" media="screen" href="css/vendor.min">
+    <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.css">
+    <!-- The above 4 meta tags *Must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ANT | Inscription/login</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/fou.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header-area d-flex justify-content-between align-items-center">
+            <!-- Contact Info -->
+
+            <!-- Follow Us -->
+
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="clever-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="cleverNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.php"><img src="img/core-img/logoAnt.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.php">Accueil</a></li>
+
+                                <li><a href="profUni.html">Professeurs</a></li>
+                                <li><a href="blog.html">A propos</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Button -->
+                            <div class="search-area">
+                                <form action="profmath.html" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                            <div class="register-login-area">
+                            </div>
+
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- Page Title-->
+<div class="page-title">
+  <div class="container">
+    <div class="column">
+      <h1>Se connecter / Créer un compte</h1>
+    </div>
+    <div class="column">
+      <ul class="breadcrumbs">
+        <li><a href="index.php">Acceuil</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li>Se connecter / S'inscrire</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Page Content-->
+    <div class="container padding-bottom-3x mb-2">
+      <div class="row">
+        <div class="col-md-6">
+          <form class="" action="traitementlog.php" method="post">
+            <div class="card-body">
+              <h4 class="margin-bottom-1x">Se connecter</h4>
+              <div class="form-group input-group">
+                <input class="form-control" type="email" placeholder="Email" name="emailConnect" required><span class="input-group-addon"><i class="icon-mail"></i></span>
+              </div>
+              <div class="form-group input-group">
+                <input class="form-control" type="password" placeholder="Password" name="passwordConnect" required><span class="input-group-addon"><i class="icon-lock"></i></span>
+              </div>
+              <div class="d-flex flex-wrap justify-content-between padding-bottom-1x">
+                <a class="navi-link" href="account-password-recovery.html">Mot de passe oublié?</a>
+              </div>
+              <div class="text-center text-sm-right">
+                <button class="btn btn-primary margin-bottom-none" type="submit" name="submit">Se connecter</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <div class="padding-top-3x hidden-md-up"></div>
+          <h3 class="margin-bottom-1x">Pas de compte? S'inscrire</h3>
+          <!-- <p>Faire connaitre blablablabla</p> -->
+
+          <form class="row" action="controle.php" method="post" id="formCompte">
+            <!-- Nom comercial -->
+            <div class="col-sm-12" id="pseudo1">
+              <div class="form-group">
+                <!--<label for="reg-ln" id="lblNomCommercial">Nom commercial</label>-->
+                <input class="form-control" type="text" name="pseudo" id="pseudo"  required value="" placeholder="Veuillez saisir un pseudo">
+              </div>
+            </div><!--Fin Nom comercial -->
+
+            <!-- Prenom -->
+            <div class="col-sm-12" id="email1">
+             <div class="form-group">
+                <!--<label for="reg-ln" id="lblPrenom">Prénom</label>-->
+                <input class="form-control" type="text" name="email" id="email" value=""  required placeholder="Veuillez saisir votre email">
+              </div>
+            </div><!--Fin Prenom -->
+
+            <!-- Nom -->
+            <div class="col-sm-12" id="password1">
+              <div class="form-group">
+                <!--<label for="reg-ln" name="lblNom" id="lblNom">Nom</label>-->
+                <input class="form-control" type="password" name="pass" id="pass" value="" required placeholder="Veuillez saisir votre mot de passe">
+              </div>
+            </div><!--Fin Nom -->
+
+            <div class="col-sm-12" id="passconfirm1">
+              <div class="form-group">
+                <!--<label for="reg-ln" name="lblNom" id="lblNom">Nom</label>-->
+                <input class="form-control" type="password" name="passconfirm" id="passconfirm" value="" required placeholder="Veuillez confirmer votre mot de passe">
+              </div>
+            </div><!--Fin Nom -->
+
+
+
+            <div class="col-12 text-center text-sm-right">
+              <button class="btn btn-primary margin-bottom-none" type="submit">S'inscrire</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-area">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/core-img/logofoot.png" alt=""></a>
+                        </div>
+                        <!-- Copywrite -->
+                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area d-flex justify-content-between align-items-center">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <a href="#"><span>Phone:</span> +509 44444444</a>
+                <a href="#"><span>Email:</span> infoAnt@yahoo.com</a>
+            </div>
+            <!-- Follow Us -->
+            <div class="follow-us">
+                <span>Follow us</span>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+</html>

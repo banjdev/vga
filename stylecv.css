@@ -1,0 +1,28 @@
+.titre{
+	color: red;
+	font-family: 'MaDream', Arial, serif;/*AsemKandisPERSONALUSE.otf*/
+}
+
+@font-face {
+    font-family: 'MaDream';
+    src: url('Naila.otf');
+}
+
+img{
+	float: right;
+	position: top;
+}
+
+body
+{
+    background-image: url("neige.png");
+    background-attachment: fixed;
+}
+
+.Formations{
+
+}
+
+.Compétences{
+
+}
